@@ -1,6 +1,3 @@
-let Dust = 0
-let DustVal = 0
-
 // Measure Dust Value
 basic.forever(function () {
     pins.digitalWritePin(DigitalPin.P1, 0)
